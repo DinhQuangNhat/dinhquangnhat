@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--www.codingflicks.com--> 
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Đăng Ký tài khoản Bếp Việt Nam</title>
+	<link href="dangnhap.css" rel="stylesheet">
+    <script src="dangky.js"></script>
+</head>
+<body>
+	<div class="form-box">
+		<div class="header-text">
+			Đăng ký
+		</div>
+        <input id="txtten" placeholder="Tên Tài Khoản" type="text" onblur="checkten()">
+        <span id="er1">(*)</span>
+         <input placeholder="Mật khẩu" type="password" id="txtmk" onblur="checkmk()">
+         <span id="er2">(*)</span>
+         <input placeholder="Số điện thoại" type="tel"  >
+         <span id="er2">Nhập đúng số điện thoại để dễ dàng tìm lại được mật khẩu</span>
+         <input type="email" placeholder="Email" id="txtmail" onblur="checkmail()">
+         <span id="er4">(*)</span>
+         <br>
+          <input id="terms" type="checkbox"> 
+          <label for="terms"></label>
+          <span>Agree with <a href="#">Terms & Conditions</a></span> 
+        <button>Login</button>
+	</div>
+</body>
+</html>
